@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(interview)",
+      "WebFetch(domain:ai-sdk.dev)",
+      "WebSearch",
+      "Bash(bun add:*)",
+      "Bash(npx tsc:*)",
+      "WebFetch(domain:api.search.brave.com)",
+      "WebFetch(domain:api-dashboard.search.brave.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(git:*)",
+      "Bash(curl:*)"
+    ]
+  }
+}
