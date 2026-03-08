@@ -1,7 +1,14 @@
 {
-  "name": "ai-scheduler-init",
+  "name": "cron",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "razgraf",
+    "url": "https://github.com/razgraf"
+  },
+  "repository": {
+    "url": "https://github.com/razgraf/cron"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

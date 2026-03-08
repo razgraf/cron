@@ -1,10 +1,13 @@
 ![Cron](/assets/banner.png)
 
-# Cron [Experimental]
+# Cron
 
-> **Note:** This is an experimental project and is not production-ready.
+> [!NOTE]
+> This is an experimental project, meant to explore the idea and is not production-ready.
 
 Schedule AI-powered tasks that run automatically on a recurring basis. Each task executes a prompt using Claude, optionally enriched with live web search results, and stores the output for later review.
+
+Started building this because the native task/schedules UX in Grok and ChatGPT wasn't very good.
 
 ## Features
 
@@ -20,8 +23,8 @@ Schedule AI-powered tasks that run automatically on a recurring basis. Each task
 ## Quickstart
 
 ```bash
-git clone https://github.com/razgraf/ai-scheduler.git
-cd ai-scheduler
+git clone https://github.com/razgraf/cron.git
+cd cron
 bun install
 ```
 

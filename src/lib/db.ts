@@ -1,7 +1,7 @@
 import Dexie, { type EntityTable } from "dexie";
 import type { Task, TaskRun } from "@/types";
 
-const db = new Dexie("ai-scheduler") as Dexie & {
+const db = new Dexie("cron") as Dexie & {
   tasks: EntityTable<Task, "id">;
   runs: EntityTable<TaskRun, "id">;
 };
